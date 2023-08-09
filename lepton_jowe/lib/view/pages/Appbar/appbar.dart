@@ -51,71 +51,9 @@ class AppBarhome extends StatelessWidget {
 
                           SizedBox(
                             width: 400,
-                           // color: cred,
-                          
-                                              ),
+                            ),
                    
-                    // Padding(
-                    //   padding: EdgeInsets.only(left: 60),
-                    //   child: SizedBox(
-                    //     height: 30,
-                    //     width: 100,
-                    //   //  color: cBlue,
-                    //     child: InkWell(
-                    //       onTap: () {
-                    //         showDialog(
-                    //           context: context,
-                    //           barrierDismissible:
-                    //               false, // user must tap button!
-                    //           builder: (BuildContext context) {
-                    //             return AlertDialog(
-                    //               title: const Text(''),
-                    //               content: SingleChildScrollView(
-                    //                 child: ListBody(
-                    //                   children: [
-                                      
-                    //                   ],
-                                     
-                    //                 ),
-                    //               ),
-                    //               actions: <Widget>[
-                    //                 TextButton(
-                    //                   child: const Text('Ok'),
-                    //                   onPressed: () async {
-                                        
-                    //                   },
-                    //                 ),
-                    //                 TextButton(
-                    //                   child: const Text('Cancel'),
-                    //                   onPressed: () {
-                    //                     Navigator.of(context).pop();
-                    //                   },
-                    //                 ),
-                    //               ],
-                    //             );
-                    //           },
-                    //         );
-                    //       },
-                    //       child: Container(
-                    //          height: 25,
-                    //          width: 65,
-                    //         decoration: BoxDecoration(
-                    //           borderRadius: BorderRadius.all(
-                    //             Radius.circular(10)
-                    //             ),
-                    //             color: cWhite,
-                    //             border: Border.all(color: cred)
-                               
-                    //             ),
-                    //              child:Center(child:
-                    //              GoogleMonstserratWidgets(
-                    //               text: "Login", fontsize: 14,fontWeight: FontWeight.w600,
-                    //               color: kprimary,))
-                    //              )
-                         
-                    //     ),
-                    //   ),
-                    // ),
+                   
                     SizedBox(
                                 width: 95,
                               ),
@@ -132,7 +70,7 @@ class AppBarhome extends StatelessWidget {
                             },
                             child: Image.asset(
                               'assets/images/frdd.png',
-                              height: 25,
+                              height: 20,
                               width: 38,
                               color: cWhite,
                               //Color(0xFF17BDB5),
@@ -145,8 +83,8 @@ class AppBarhome extends StatelessWidget {
                             },
                             child: Image.asset(
                               'assets/images/instag.png',
-                              height: 40,
-                              width: 40,
+                              height: 35,
+                              width: 35,
                               color: cWhite,
                             ),
                           ),
@@ -157,7 +95,7 @@ class AppBarhome extends StatelessWidget {
                             },
                             child: Image.asset(
                               'assets/images/twitt.png',
-                              height: 29,
+                              height: 22,
                               width: 30,
                               color: cWhite,
                             ),
@@ -169,8 +107,8 @@ class AppBarhome extends StatelessWidget {
                             },
                             child: Image.asset(
                               'assets/images/utube.png',
-                              height: 28,
-                              width: 28,
+                              height: 25,
+                              width: 25,
                               color: cWhite,
                             ),
                           )

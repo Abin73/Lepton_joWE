@@ -18,18 +18,12 @@ class HomePages  extends StatelessWidget {
         child: Scaffold(
           // appBar: AppBar(
             backgroundColor: cWhite,
-          //   title: GoogleMonstserratWidgets(text: 'Lepton JoWE',fontsize: 18),
-          // ),
+
           body: Container(
             margin: EdgeInsets.only(bottom: 30),
             width: double.infinity,
             height: Size.height,
-            // decoration: BoxDecoration(
-            //   image: DecorationImage(
-            //     image: AssetImage('assets/images/background.jpg'),
-            //     fit: BoxFit.cover,
-            //   ),
-            // ),
+           
             child: SingleChildScrollView(
               child: Column(
                 children: [

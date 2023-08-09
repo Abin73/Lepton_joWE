@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lepton_jowe/colors/colors.dart';
+import 'package:lepton_jowe/view/pages/footer/About%20us/about_us.dart';
 import 'package:lepton_jowe/view/pages/footer/Cancellation%20and%20Refund%20Policy/Cancellation_and_refund.dart';
 import 'package:lepton_jowe/view/pages/footer/PrivacyPolicy/privacy.dart';
 import 'package:lepton_jowe/view/pages/footer/terms%20and%20conditions/terms_and_conditions.dart';
@@ -129,6 +130,28 @@ class JoWEFooterPage extends StatelessWidget {
                                     width: 160,
                                     child: Text(
                                       'Why choose us',
+                                      style: k,
+                                    ));
+                              },
+                            ),
+                          ),
+                         GestureDetector(
+                             onTap: () {
+                              
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: ((context) =>
+                                           AboutUs())));
+                            },
+                            child: OnHoverText(
+                              builder: (isHoverd) {
+                                final color =
+                                    isHoverd ? Colors.orange : Colors.black;
+                                return SizedBox(
+                                    width: 160,
+                                    child: Text(
+                                      'About Us',
                                       style: k,
                                     ));
                               },

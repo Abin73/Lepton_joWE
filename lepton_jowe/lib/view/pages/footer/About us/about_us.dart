@@ -18,6 +18,7 @@ class AboutUs  extends StatelessWidget {
         child: Scaffold(
           // appBar: AppBar(
             backgroundColor: cWhite,
+         appBar: AppBar(backgroundColor: cWhite,elevation: 0,iconTheme: IconThemeData(color: cBlack),),
 
           body: Container(
             margin: EdgeInsets.only(bottom: 30),
